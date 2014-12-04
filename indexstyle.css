@@ -1,0 +1,4 @@
+body { background-color: #E6FFFF; position: relative; }
+header { background-color: #70B8FF; position: absolute; width: 100%; height: 50px; text-align: center; }
+nav { background-color: #A9D4FF; position: absolute; width: 100%; height: 30px; text-align: right; display: inline; }
+footer { position: absolute; bottom: 20px; text-align: right; display: inline; }
