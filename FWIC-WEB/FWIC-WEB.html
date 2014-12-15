@@ -1,2 +1,30 @@
 <html>
+<head>
+  <title>FWIC WEB Interface</title>
+  <link rel="stylesheet" href="webstyle.css" type="text/CSS">
+</head>
+<body>
+  <header>Welcome to the FWIC WEB Interface</header>
+  <inputs>
+    <h2>Inputs section</h2>
+    <p>
+      This section is where you can input the text that you would like to be analysed, as well as what words you would like to 
+      be used as the analysis parameters. Initially, this will support only a single parameter input, and a single text input. 
+      This will be expanded as development progresses.
+    </p> 
+    <p>  
+      To use the FWIC WEB tool, type or paste the text that you desire to analyse into the box labeled "input", and type or 
+      paste the word that you want to use as an analysis parameter into the box labeled "parameter"
+    </p>
+    <h3>Input</h3>
+    <input type="text" size="100" id="textSource">
+    <h3>Parameter</h3>
+    <input type="text" id="parameter">
+  </inputs>
+  <outputs>
+    <h3>Original Text</h3>
+    <p id="texOutput"></p>
+    <p id="dataOutput"></p>
+  </outputs>
+</body>
 </html>
