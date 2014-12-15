@@ -1,8 +1,8 @@
 analysisFunc = function() {
-input = document.getElementById("textSource").value;
+inputText = document.getElementById("textSource").value;
 parameter = document.getElementById("parameterText").value;
-output = document.getElementById("textOutput");
-output.innerHTML = input;
+outputText = document.getElementById("textOutput");
+outputText.innerHTML = inputText;
 analysis = document.getElementById("dataOutput");
 analysisRes = input.match(/parameter/g);
 analysis.innerHTML = analysisRes;
